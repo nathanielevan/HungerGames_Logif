@@ -1,0 +1,27 @@
+Pembagian Tugas:
+1. Shandy	: Objek Gerak (properties player & enemy, pergerakan, battle), 					  command status
+2. Irfan	: Buat Map, Spawn Object random
+3. Ihsan	: Objek Mati (properties benda & kaitannya ke player)
+5. Evan		: Storyline, Save & Load External.
+
+Mekanisme Game :
+Player dan enemy dispawn secara random di map.
+	Player dan enemy dapat bergerak berarah Mata angin utama sebesar 1 kotak.
+Hunger dan Thirst berkurang setiap langkah yang diambil player.
+	Jika hunger dan thirst = 0, player dinyatakan kalah.
+	Hunger dan thirst dapat dipulihkan melalui objek diam di peta (buatan Ihsan)
+Objek
+	Medicine bisa menambah health.
+		Tambahan : variasi medicine
+	Weapon bisa menyerang musuh (tanpa weapon = tidak bisa menyerang)
+		Tambahan : buat weapon melee dan ranged.
+
+Win Condition : 
+Versi 1 :
+	Win condition ditentukan jika player mencapai daerah akhir dan mengalah musuh di daerah tersebut (boss).
+
+Versi 2 :
+	Win condition ditentukan jika player mampu membunuh semua musuh di game.
+
+Versi 3 :
+	Win condition ditentukan jika player mampu survive selama waktu tertentu.
